@@ -69,6 +69,7 @@
             // BTN_PRODUCTOS
             // 
             this.BTN_PRODUCTOS.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BTN_PRODUCTOS.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_PRODUCTOS.Location = new System.Drawing.Point(226, 2);
             this.BTN_PRODUCTOS.Margin = new System.Windows.Forms.Padding(2);
             this.BTN_PRODUCTOS.Name = "BTN_PRODUCTOS";
