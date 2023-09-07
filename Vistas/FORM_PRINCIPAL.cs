@@ -14,9 +14,11 @@ namespace FACTURA
 {
     public partial class FORM_PRINCIPAL : Form
     {
+        
         public static Ctl_Producto ctl_Producto = new Ctl_Producto();
         public static Ctl_Cliente ctl_cli = new Ctl_Cliente();
-
+        public static Ctl_factura ctl_Factura = new Ctl_factura();
+       
         public FORM_PRINCIPAL()
         {
             InitializeComponent();

@@ -13,9 +13,9 @@ namespace FACTURA.Controladores
 
         List<Factura> lista;
 
-        public Ctl_factura() 
+        public Ctl_factura()
         {
-        
+
             lista = new List<Factura>();
         }
 
@@ -34,6 +34,15 @@ namespace FACTURA.Controladores
                 tabla.Rows.Add(fact.Num_factura, fact.Ced_cliente, fact.Fecha, fact.Total);
             }
 
+        }
+        public int num_factura()
+        {
+            int num = 0;
+            if(lista.Count > 0)
+            {
+                  num = lista.Last().Num_factura;
+            }
+            return num + 1;
         }
 
 
